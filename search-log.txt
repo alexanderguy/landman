@@ -1,0 +1,94 @@
+[INFO] Using profile: Comprehensive Mountain West Search
+[INFO] Description: Search all target states with full criteria
+[INFO] 
+[INFO] Starting property search...
+[INFO] 
+[INFO] Filter support by source:
+[INFO]   LandSearch: states, priceRange, acreageRange
+[INFO]   Lands of America: states, priceRange, acreageRange
+[INFO]   LandWatch: states, priceRange, acreageRange
+[PROGRESS] Searching LandSearch... (1/3 - 33%)
+[PROGRESS] [landsearch] Launching browser
+[PROGRESS] [landsearch] Searching ID: https://www.landsearch.com/properties/idaho/filter/price[min]=100000,price[max]=800000,size[min]=20,size[max]=640
+[PROGRESS] [landsearch] Processing ID page 1
+[PROGRESS] [landsearch] Found 56 listings on page 1
+[PROGRESS] [landsearch] Processing ID page 2
+[PROGRESS] [landsearch] Found 56 listings on page 2
+[PROGRESS] [landsearch] Processing ID page 3
+[PROGRESS] [landsearch] Found 56 listings on page 3
+[PROGRESS] [landsearch] Processing ID page 4
+[PROGRESS] [landsearch] Found 56 listings on page 4
+[PROGRESS] [landsearch] Processing ID page 5
+[PROGRESS] [landsearch] Found 56 listings on page 5
+[PROGRESS] [landsearch] Processing ID page 6
+[PROGRESS] [landsearch] Found 56 listings on page 6
+[PROGRESS] [landsearch] Processing ID page 7
+[PROGRESS] [landsearch] Found 56 listings on page 7
+[PROGRESS] [landsearch] Processing ID page 8
+[PROGRESS] [landsearch] Found 64 listings on page 8
+[PROGRESS] [landsearch] Searching MT: https://www.landsearch.com/properties/montana/filter/price[min]=100000,price[max]=1200000,size[min]=20,size[max]=640
+[PROGRESS] [landsearch] Processing MT page 1
+[PROGRESS] [landsearch] Found 56 listings on page 1
+[PROGRESS] [landsearch] Processing MT page 2
+[PROGRESS] [landsearch] Found 56 listings on page 2
+[PROGRESS] [landsearch] Processing MT page 3
+[PROGRESS] [landsearch] Found 56 listings on page 3
+[PROGRESS] [landsearch] Processing MT page 4
+[PROGRESS] [landsearch] Found 56 listings on page 4
+[PROGRESS] [landsearch] Processing MT page 5
+[PROGRESS] [landsearch] Found 56 listings on page 5
+[PROGRESS] [landsearch] Processing MT page 6
+[PROGRESS] [landsearch] Found 56 listings on page 6
+[PROGRESS] [landsearch] Processing MT page 7
+[PROGRESS] [landsearch] Found 56 listings on page 7
+[PROGRESS] [landsearch] Processing MT page 8
+[PROGRESS] [landsearch] Found 56 listings on page 8
+[PROGRESS] [landsearch] Processing MT page 9
+[PROGRESS] [landsearch] Found 56 listings on page 9
+[PROGRESS] [landsearch] Processing MT page 10
+[PROGRESS] [landsearch] Found 56 listings on page 10
+[PROGRESS] [landsearch] Processing MT page 11
+[PROGRESS] [landsearch] Found 56 listings on page 11
+[PROGRESS] [landsearch] Processing MT page 12
+[PROGRESS] [landsearch] Found 51 listings on page 12
+[PROGRESS] [landsearch] Searching WY: https://www.landsearch.com/properties/wyoming/filter/price[min]=100000,price[max]=1000000,size[min]=20,size[max]=640
+[PROGRESS] [landsearch] Processing WY page 1
+[PROGRESS] [landsearch] Found 56 listings on page 1
+[PROGRESS] [landsearch] Processing WY page 2
+[PROGRESS] [landsearch] Found 56 listings on page 2
+[PROGRESS] [landsearch] Processing WY page 3
+[PROGRESS] [landsearch] Found 56 listings on page 3
+[PROGRESS] [landsearch] Processing WY page 4
+[PROGRESS] [landsearch] Found 56 listings on page 4
+[PROGRESS] [landsearch] Processing WY page 5
+[PROGRESS] [landsearch] Found 79 listings on page 5
+[PROGRESS] [landsearch] Searching SD: https://www.landsearch.com/properties/south-dakota/filter/price[min]=100000,price[max]=600000,size[min]=20,size[max]=640
+[PROGRESS] [landsearch] Processing SD page 1
+[PROGRESS] [landsearch] Found 30 listings on page 1
+[PROGRESS] [landsearch] Searching WA: https://www.landsearch.com/properties/washington/filter/price[min]=100000,price[max]=1500000,size[min]=20,size[max]=640
+[PROGRESS] [landsearch] Processing WA page 1
+[PROGRESS] [landsearch] Found 56 listings on page 1
+[PROGRESS] [landsearch] Processing WA page 2
+[PROGRESS] [landsearch] Found 56 listings on page 2
+[PROGRESS] [landsearch] Processing WA page 3
+[PROGRESS] [landsearch] Found 56 listings on page 3
+[PROGRESS] [landsearch] Processing WA page 4
+[PROGRESS] [landsearch] Found 56 listings on page 4
+[PROGRESS] [landsearch] Processing WA page 5
+[PROGRESS] [landsearch] Found 56 listings on page 5
+[PROGRESS] [landsearch] Processing WA page 6
+[PROGRESS] [landsearch] Found 56 listings on page 6
+[PROGRESS] [landsearch] Processing WA page 7
+[PROGRESS] [landsearch] Found 56 listings on page 7
+[PROGRESS] [landsearch] Processing WA page 8
+[PROGRESS] [landsearch] Found 105 listings on page 8
+[SUCCESS] Found 0 properties from LandSearch
+[PROGRESS] Searching Lands of America... (2/3 - 67%)
+[PROGRESS] [landsofamerica] Launching browser
+[PROGRESS] [landsofamerica] Searching ID: https://www.land.com/Montana/all-land/100000-800000/20-640-acres/
+[PROGRESS] [landsofamerica] Processing ID page 1
+[PROGRESS] [landsofamerica] Found 25 listings on page 1
+[PROGRESS] [landsofamerica] Processing ID page 2
+[PROGRESS] [landsofamerica] Found 25 listings on page 2
+[ERROR] click: Timeout 30000ms exceeded.
+[ERROR] [landsofamerica] Search error: click: Timeout 30000ms exceeded.

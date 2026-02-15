@@ -1,0 +1,22 @@
+{
+  "url": "https://www.landwatch.com/api/property/searchUrl/1113",
+  "status": 200,
+  "headers": {
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+    "x-loa-timestamp": "2026/02/14 16:25:07.6006",
+    "content-security-policy": "frame-ancestors 'self';",
+    "cache-control": "public, max-age=695",
+    "content-encoding": "br",
+    "x-loa-origin": "PRD546",
+    "expires": "Sun, 15 Feb 2026 00:55:07 GMT",
+    "server-timing": "cdn-cache; desc=HIT, edge; dur=41, origin; dur=0, ak_p; desc=\"1771116212217_399431653_2639304559_5810_31890_21_0_219\";dur=1",
+    "akamai-cache-status": "Miss from child, Hit from parent",
+    "content-length": "26",
+    "date": "Sun, 15 Feb 2026 00:43:32 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "x-powered-by": "ASP.NET",
+    "server": "Microsoft-IIS/10.0",
+    "vary": "Accept-Encoding"
+  },
+  "bodyText": "/montana-land-for-sale"
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "timestamp": "2026-02-15T00:35:10.872Z",
+    "method": "GET",
+    "url": "https://c.go-mpulse.net/api/config.json?key=JDMD8-QFRTR-PCSRH-SZEQ5-RDT9F&d=www.landwatch.com&t=5903719&v=1.815.0&sl=0&si=218de470-edb9-4151-817e-d7a859f37bc8-tah5mm&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=651339",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+      "timing-allow-origin": "*",
+      "content-encoding": "gzip",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "content-length": "820",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "content-type": "application/json",
+      "vary": "Accept-Encoding"
+    },
+    "responseBody": {
+      "h.key": "JDMD8-QFRTR-PCSRH-SZEQ5-RDT9F",
+      "h.d": "arlid:651339",
+      "h.t": 1771115711066,
+      "h.cr": "a6cfccadd15d93c302294d49589cdad0f22382a8-855e1d0a-55d979ae",
+      "session_id": "f18f9d90-25ab-4878-9923-64a71c84ec95",
+      "site_domain": "arlid:651339",
+      "beacon_url": "//17de4c16.akstat.io/",
+      "autorun": false,
+      "beacon_interval": 60,
+      "BW": {
+        "enabled": false
+      },
+      "RT": {
+        "session_exp": 1800
+      },
+      "ResourceTiming": {
+        "enabled": true,
+        "splitAtPath": true
+      },
+      "History": {
+        "enabled": true,
+        "auto": true
+      },
+      "Errors": {
+        "enabled": true,
+        "monitorTimeout": false,
+        "monitorEvents": false,
+        "maxErrors": 10,
+        "sendAfterOnload": true,
+        "sendInterval": 2000
+      },
+      "Continuity": {
+        "enabled": true
+      },
+      "PageParams": {
+        "xhr": "none",
+        "pageGroups": [
+          {
+            "type": "Regexp",
+            "parameter1": "https://www.land.com/$",
+            "parameter2": "Home",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "https://www.land.com/property/",
+            "parameter2": "Property Details",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "/all-land/",
+            "parameter2": "Search results",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "/broker/",
+            "parameter2": "Find a land agent",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "/member/",
+            "parameter2": "Lend.com member",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "/addlisting/",
+            "parameter2": "Add listing",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "land\\.com(\\/[a-z]{2})?((\\/){0,2}$|(\\/\\?){1,2}.*)",
+            "parameter2": "Home",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "https://www.landwatch.com/",
+            "parameter2": "Landwatch",
+            "on": [
+              "navigation"
+            ]
+          },
+          {
+            "type": "Regexp",
+            "parameter1": "https://www.landfarm.com/",
+            "parameter2": "Landfarm",
+            "on": [
+              "navigation"
+            ]
+          }
+        ],
+        "customMetrics": [],
+        "customTimers": [],
+        "customDimensions": [
+          {
+            "name": "Domain",
+            "index": 0,
+            "type": "JavaScriptVar",
+            "label": "cdim.Domain",
+            "dataType": "Text",
+            "xhr_ok": true,
+            "varName": "document.domain"
+          },
+          {
+            "name": "eConnectionType",
+            "index": 1,
+            "type": "JavaScriptVar",
+            "label": "cdim.eConnectionType",
+            "dataType": "Text",
+            "xhr_ok": true,
+            "varName": "navigator.connection.effectiveType"
+          }
+        ],
+        "urlPatterns": [],
+        "params": true
+      },
+      "Akamai": {
+        "enabled": true,
+        "dns_prefetch_enabled": true
+      },
+      "user_ip": "88f9acdfb"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:11.103Z",
+    "method": "GET",
+    "url": "https://www.landwatch.com/api/authenticate/isloggedin",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/montana-land-for-sale",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+      "x-loa-timestamp": "2026/02/14 16:35:11.2157",
+      "content-security-policy": "frame-ancestors 'self';",
+      "cache-control": "no-store",
+      "x-loa-origin": "PRD548",
+      "expires": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "server-timing": "cdn-cache; desc=MISS, edge; dur=78, origin; dur=9, ak_p; desc=\"1771115711145_399431653_2637700757_11094_13285_22_0_219\";dur=1",
+      "akamai-cache-status": "Miss from child, NotCacheable from parent",
+      "content-length": "5",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "ASP.NET",
+      "server": "Microsoft-IIS/10.0"
+    },
+    "responseBody": false
+  },
+  {
+    "timestamp": "2026-02-15T00:35:11.104Z",
+    "method": "POST",
+    "url": "https://www.landwatch.com/api/property/searchUrl/1113",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/montana-land-for-sale",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "accept": "text/plain",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "postData": {
+      "acresMax": null,
+      "acresMin": null,
+      "activityTypes": [],
+      "amenityTypes": [],
+      "bathMax": null,
+      "bathMin": null,
+      "bedMax": null,
+      "bedMin": null,
+      "cityIdList": [],
+      "cityName": "",
+      "countyIdList": [],
+      "countyName": "",
+      "customSearchUrl": "",
+      "dateListed": 0,
+      "hasCustomMap": false,
+      "hasHouse": null,
+      "hasVideo": false,
+      "hasVirtualTour": false,
+      "inventoryIdList": [],
+      "isDefaultGeoSearch": true,
+      "isDefaultStateAndTypeSearch": false,
+      "isDefaultStateSearch": true,
+      "isNearMeSearch": false,
+      "isSellerSearchPage": false,
+      "keywordQuery": null,
+      "lakeIdList": [],
+      "latitude": null,
+      "longitude": null,
+      "marketStatuses": [
+        1,
+        2
+      ],
+      "mineralRights": false,
+      "ownerFinancing": false,
+      "pageIndex": 0,
+      "priceMax": null,
+      "priceMin": null,
+      "priceChangeLookback": 0,
+      "priceChangeType": 0,
+      "propertyTypes": [],
+      "radius": 0,
+      "regionIdList": [],
+      "regionName": "",
+      "sortOrderId": 0,
+      "sqftMax": null,
+      "sqftMin": null,
+      "stateAbbreviation": "MT",
+      "stateId": 30,
+      "stateName": "Montana",
+      "transactionTypes": [],
+      "zip": "",
+      "userSavedProperties": false,
+      "brokerId": 0,
+      "mapEncodedCords": "",
+      "tempSkipNavigation": false
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+      "x-loa-timestamp": "2026/02/14 16:08:48.0224",
+      "content-security-policy": "frame-ancestors 'self';",
+      "cache-control": "public, max-age=217",
+      "content-encoding": "br",
+      "x-loa-origin": "PRD543",
+      "expires": "Sun, 15 Feb 2026 00:38:48 GMT",
+      "server-timing": "cdn-cache; desc=HIT, edge; dur=6, ak_p; desc=\"1771115711129_399431653_2637700758_1351_12355_23_0_219\";dur=1",
+      "akamai-cache-status": "Hit from child",
+      "content-length": "26",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "x-powered-by": "ASP.NET",
+      "server": "Microsoft-IIS/10.0",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:11.104Z",
+    "method": "POST",
+    "url": "https://www.landwatch.com/api/Popular/logPopularSearch/1113",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/montana-land-for-sale",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "postData": {
+      "acresMax": null,
+      "acresMin": null,
+      "activityTypes": [],
+      "amenityTypes": [],
+      "bathMax": null,
+      "bathMin": null,
+      "bedMax": null,
+      "bedMin": null,
+      "cityIdList": [],
+      "cityName": "",
+      "countyIdList": [],
+      "countyName": "",
+      "customSearchUrl": "",
+      "dateListed": 0,
+      "hasCustomMap": false,
+      "hasHouse": null,
+      "hasVideo": false,
+      "hasVirtualTour": false,
+      "inventoryIdList": [],
+      "isDefaultGeoSearch": true,
+      "isDefaultStateAndTypeSearch": false,
+      "isDefaultStateSearch": true,
+      "isNearMeSearch": false,
+      "isSellerSearchPage": false,
+      "keywordQuery": null,
+      "lakeIdList": [],
+      "latitude": null,
+      "longitude": null,
+      "marketStatuses": [
+        1,
+        2
+      ],
+      "mineralRights": false,
+      "ownerFinancing": false,
+      "pageIndex": 0,
+      "priceMax": null,
+      "priceMin": null,
+      "priceChangeLookback": 0,
+      "priceChangeType": 0,
+      "propertyTypes": [],
+      "radius": 0,
+      "regionIdList": [],
+      "regionName": "",
+      "sortOrderId": 0,
+      "sqftMax": null,
+      "sqftMin": null,
+      "stateAbbreviation": "MT",
+      "stateId": 30,
+      "stateName": "Montana",
+      "transactionTypes": [],
+      "zip": "",
+      "userSavedProperties": false,
+      "brokerId": 0,
+      "mapEncodedCords": "",
+      "tempSkipNavigation": false
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+      "x-loa-timestamp": "2026/02/14 16:35:11.1914",
+      "content-security-policy": "frame-ancestors 'self';",
+      "cache-control": "max-age=0",
+      "x-loa-origin": "PRD547",
+      "expires": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "server-timing": "cdn-cache; desc=MISS, edge; dur=77, origin; dur=69, ak_p; desc=\"1771115711130_399431653_2637700759_15377_11542_20_0_219\";dur=1",
+      "akamai-cache-status": "Miss from child, NotCacheable from parent",
+      "content-length": "0",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "x-powered-by": "ASP.NET",
+      "server": "Microsoft-IIS/10.0"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:11.104Z",
+    "method": "GET",
+    "url": "https://www.landwatch.com/api/authenticate/logininfo/1113",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/montana-land-for-sale",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+      "x-loa-timestamp": "2026/02/14 16:35:11.2144",
+      "content-security-policy": "frame-ancestors 'self';",
+      "cache-control": "no-store",
+      "x-loa-origin": "PRD548",
+      "expires": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "server-timing": "cdn-cache; desc=MISS, edge; dur=116, origin; dur=6, ak_p; desc=\"1771115711129_399431653_2637700760_12950_13521_22_0_219\";dur=1",
+      "akamai-cache-status": "Miss from child, NotCacheable from parent",
+      "content-length": "96",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "ASP.NET",
+      "server": "Microsoft-IIS/10.0"
+    },
+    "responseBody": {
+      "errors": null,
+      "hashedEmail": null,
+      "isLoggedIn": false,
+      "redirect": null,
+      "status": 0,
+      "userInfo": null
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:11.595Z",
+    "method": "GET",
+    "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2196724074067498&correlator=2386728972147419&eid=31096593%2C95379660&output=ldjh&gdfp_req=1&vrg=202602100101&ptt=17&impl=fif&iu_parts=21873080469%2Clw_searchresults_bam&enc_prev_ius=%2F0%2F1&prev_iu_szs=320x50&fluid=height&ifi=1&dids=div-gpt-ad-1593182955376-0&adfs=2917430891&sfv=1-0-45&sc=1&lrm=200&cookie_enabled=1&abxe=1&dt=1771115711590&lmt=1771115711&adxs=650&adys=1468&biw=1908&bih=1080&scr_x=0&scr_y=0&btvi=1&ucis=1&oid=2&u_his=2&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=30&u_sd=1&u_tz=-480&dmc=8&bc=31&nvt=1&uach=WyJtYWNPUyIsIjEwXzE1XzciLCJ4ODYiLCIiLCIxNDUuMC43NjMyLjYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDUuMC43NjMyLjYiXSxbIk5vdDpBLUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&vis=1&psz=928x9602&msz=928x0&fws=4&ohw=960&psd=WzMxLFtdXQ..&dlt=1771115710572&idt=774&cust_params=se%3DLWPROD%26pg%3D1%26s%3DMT%26nu-co%3D3415%26m-co%3D1063%252C1072%252C1059%252C1055%252C1057%252C1068%252C1089%252C3196%252C1060%252C1097%252C1064%252C1095%252C1050%252C1049%252C1077%252C1086%26gs%3Dstate%26pta%3Dnone&adks=1391842848&frm=20&eoidce=1&pgls=CAk.",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "content-encoding": "dcb",
+      "google-lineitem-id": "-2",
+      "x-content-type-options": "nosniff",
+      "google-mediationtag-id": "-2",
+      "google-mediationgroup-id": "-2",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "date": "Sun, 15 Feb 2026 00:35:11 GMT",
+      "content-type": "text/plain; charset=UTF-8",
+      "google-creative-id": "-2",
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://www.landwatch.com",
+      "content-length": "434",
+      "x-xss-protection": "0",
+      "server": "cafe"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:13.786Z",
+    "method": "POST",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-YTQZGGJLLW&gtm=45je62b1v9100965633z8830373705za20gzb830373705zd830373705&_p=1771115713353&gcd=13l3l3l3l1l1&npa=0&dma=0&ul=en&cid=1118494542.1771115714&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAGQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938469~116491845~116988315~117527104&dl=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&dr=&dt=Montana%20Land%20for%20Sale%2C%20Land%20for%20Sale%20in%20Montana%2C%20Land%20for%20Sale%20Near%20Me%20in%20Montana%2C%203%2C211%20Properties%20for%20Sale%20%7C%20LandWatch&sid=1771115713&sct=1&seg=1&_tu=QA&uid=&en=page_view&_c=1&ep.country=USA&ep.listing_brand=Landwatch&ep.listing_state=Montana&ep.name=Search%20Results&ep.search_action=search&ep.search_facets=State&ep.search_listing_age=Any&ep.search_listing_status=Available%2C%20Under%20Contract&ep.full_page_url=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&ep.full_page_title=Montana%20Land%20for%20Sale%2C%20Land%20for%20Sale%20in%20Montana%2C%20Land%20for%20Sale%20Near%20Me%20in%20Montana%2C%203%2C211%20Properties%20for%20Sale%20%7C%20LandWatch&ep.gtm_container_id=GTM-P56JWN2&ep.gtm_container_version=97&ep.previous_url=&ep.content_group=Search%20Results&ep.count_page_load_completed=1&_et=3&up.user_status=logged%20out&tfd=3500",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 302,
+    "responseHeaders": {
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "location": "https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=1118494542.1771115714&dma=0&en=page_view&gtm=45je62b1v9100965633z8830373705za20gzb830373705zd830373705&npa=0&tid=G-YTQZGGJLLW&dl=https%3A%2F%2Fwww.landwatch.com%3F",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "report-to": "{\"group\":\"ascnsrsggc:171:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:171:0\"}],}",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:171:0",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:171:0",
+      "content-length": "466",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Sun, 15 Feb 2026 00:35:14 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "server": "Golfe2"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:13.921Z",
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/934668261/?random=1771115713918&cv=11&fst=1771115713918&bg=ffffff&guid=ON&async=1&gtm=45be62b1z8830373705za20gzb830373705zd830373705xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115616986~115938465~115938468~116491845~116988316~117447492~117527104&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&frm=0&tiba=Montana%20Land%20for%20Sale%2C%20Land%20for%20Sale%20in%20Montana%2C%20Land%20for%20Sale%20Near%20Me%20in%20Montana%2C%203%2C211%20Properties%20for%20Sale%20%7C%20LandWatch&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=402414765.1771115714&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&data=listing_id%3D420434800%2C422992565%2C415351442%3Blisting_pagetype%3Dsearchresults&rfmt=3&fmt=4",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "cache-control": "no-cache, must-revalidate",
+      "timing-allow-origin": "*",
+      "content-encoding": "br",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+      "content-length": "2238",
+      "date": "Sun, 15 Feb 2026 00:35:14 GMT",
+      "x-xss-protection": "0",
+      "content-type": "text/javascript; charset=UTF-8",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "server": "cafe"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:13.921Z",
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?frm=0&dl=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&scrsrc=www.googletagmanager.com&rnd=2009677553.1771115714&dt=Montana%20Land%20for%20Sale%2C%20Land%20for%20Sale%20in%20Montana%2C%20Land%20for%20Sale%20Near%20Me%20in%20Montana%2C%203%2C211%20Properties%20for%20Sale%20%7C%20LandWatch&auid=402414765.1771115714&navt=n&npa=0&ep.listing_id=420434800%2C422992565%2C415351442&ep.listing_pagetype=searchresults&_tu=CA&gtm=45be62b1z8830373705za20gzb830373705zd830373705xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115616986~115938465~115938468~116491845~116988316~117447492~117527104&apve=1&apvf=f&apvc=0&tids=AW-934668261&tid=AW-934668261&tft=1771115713919&tfd=3636",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {}
+  },
+  {
+    "timestamp": "2026-02-15T00:35:13.956Z",
+    "method": "GET",
+    "url": "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "x-amz-id-2": "+K2pzdSWoK6MxocEA/hdh837r3YqkVAeVjjc7ouFC3tinIzzalIqYoOv0ASB8YESD83bUlc6uZoReHdrDfC7M9M4rF64bhIi5Yw1z4Iu/vQ=",
+      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+      "cache-control": "public, max-age=3600",
+      "content-encoding": "br",
+      "cf-cache-status": "HIT",
+      "etag": "W/\"9ccc0eb1c9d7557d61d6ba1f0d64bd30\"",
+      "age": "3312",
+      "x-amz-request-id": "FJ00WN869RE9WTXQ",
+      "cf-ray": "9ce0b95f0d4f150e-LAX",
+      "date": "Sun, 15 Feb 2026 00:35:14 GMT",
+      "content-type": "text/javascript;charset=utf-8",
+      "last-modified": "Wed, 11 Feb 2026 15:28:45 GMT",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:14.176Z",
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/934668261/?random=1771115713918&cv=11&fst=1771113600000&bg=ffffff&guid=ON&async=1&gtm=45be62b1z8830373705za20gzb830373705zd830373705xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115616986~115938465~115938468~116491845~116988316~117447492~117527104&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.landwatch.com%2Fmontana-land-for-sale&frm=0&tiba=Montana%20Land%20for%20Sale%2C%20Land%20for%20Sale%20in%20Montana%2C%20Land%20for%20Sale%20Near%20Me%20in%20Montana%2C%203%2C211%20Properties%20for%20Sale%20%7C%20LandWatch&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=402414765.1771115714&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&data=listing_id%3D420434800%2C422992565%2C415351442%3Blisting_pagetype%3Dsearchresults&rfmt=3&fmt=3&is_vtc=1&cid=CAQSjQEA56J1eb4E7GLJ4bPkgCcu3vHlywV5ASrjVvARR1CziEyf-n1Ti0nd5Rm3Ww8rhZvrqgUTGDjx8V7QAJId_K-YMxwQyLEAhRl-rvzTL9mkyR2jDLdLhv4TcX9u4BrIc5z66vN8GDD_GFCHTQwjY7WYHBNL5GG3QjnS8SNiqltuy-zylaBvjcc6Gc_Oi4Y&random=3320573418&rmt_tld=0&ipr=y",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.landwatch.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "responseStatus": 200,
+    "responseHeaders": {
+      "content-security-policy": "script-src 'none'; object-src 'none'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "timing-allow-origin": "*",
+      "pragma": "no-cache",
+      "cross-origin-resource-policy": "cross-origin",
+      "x-content-type-options": "nosniff",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+      "content-length": "42",
+      "date": "Sun, 15 Feb 2026 00:35:14 GMT",
+      "x-xss-protection": "0",
+      "content-type": "image/gif",
+      "server": "cafe"
+    }
+  },
+  {
+    "timestamp": "2026-02-15T00:35:14.581Z",
+    "method": "POST",
+    "url": "https://prompts.maze.co/api/widgets",
+    "requestHeaders": {
+      "x-maze-correlation-id": "1771115713578-8715.144416073756",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "x-maze-snippet-src": "contextual-widget",
+      "referer": "https://www.landwatch.com/",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "x-api-key": "d8525713-f258-4416-869c-f9b748eb747f",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "postData": {},
+    "responseStatus": 200,
+    "responseHeaders": {
+      "access-control-allow-origin": "*",
+      "content-length": "2",
+      "date": "Sun, 15 Feb 2026 00:35:15 GMT",
+      "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "Express"
+    },
+    "responseBody": []
+  }
+]

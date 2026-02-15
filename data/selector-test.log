@@ -1,0 +1,15 @@
+Opening LandWatch Montana search...
+3 | async function inspectPage() {
+4 |   const browser = await chromium.launch({ headless: false })
+5 |   const page = await (await browser.newContext()).newPage()
+6 | 
+7 |   console.log("Opening LandWatch Montana search...")
+8 |   await page.goto("https://www.landwatch.com/mt-land-for-sale?maxPrice=1200000&minAcres=20", {
+                 ^
+TimeoutError: goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.landwatch.com/mt-land-for-sale?maxPrice=1200000&minAcres=20", waiting until "networkidle"[22m
+
+      at inspectPage (/Users/alexander/sandbox/alexanderguy/landbot/scripts/inspect-page.ts:8:14)
+      at processTicksAndRejections (native:7:39)
+

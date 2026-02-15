@@ -1,0 +1,42 @@
+Opening LandWatch Montana search...
+✅ Page navigation completed
+
+⏳ Waiting 10 seconds for content to load...
+
+📸 Taking screenshot...
+   Saved to data/landwatch-screenshot.png
+
+📊 Testing selectors:
+  ✅ "a[href*="land-for-sale"]" = 157 matches
+  ✅ "a[href*="/land/"]" = 60 matches
+  ✅ "div[class*="Property"]" = 1 matches
+     Classes: PropertySearch
+  ✅ "[data-testid]" = 11 matches
+     Classes: _0172c7e
+
+🔍 Extracting sample links...
+
+   Found 5 sample links:
+   - Text: 
+     URL: https://www.landwatch.com/
+     Classes: _0172c7e
+   - Text: Land for Sale
+     URL: https://www.landwatch.com/land
+     Classes: 
+   - Text: Hunting Land
+     URL: https://www.landwatch.com/hunting-property
+     Classes: 
+   - Text: Farms & Ranches
+     URL: https://www.landwatch.com/farms-ranches
+     Classes: 
+   - Text: Houses
+     URL: https://www.landwatch.com/homes
+     Classes: 
+
+💾 Saving full HTML...
+   Saved to data/landwatch-page.html
+
+✅ Analysis complete!
+   - Screenshot: data/landwatch-screenshot.png
+   - HTML: data/landwatch-page.html
+   - Log: data/page-analysis.log

@@ -1,0 +1,262 @@
+{
+  "profiles": {
+    "default": {
+      "name": "Comprehensive Mountain West Search",
+      "description": "Search all target states with full criteria",
+      "criteria": {
+        "minAcres": 20,
+        "maxAcres": 640,
+        "states": [
+          "ID",
+          "MT",
+          "WY",
+          "SD",
+          "WA"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 100000,
+            "max": 1500000
+          },
+          "byRegion": {
+            "ID": {
+              "max": 800000
+            },
+            "MT": {
+              "max": 1200000
+            },
+            "WY": {
+              "max": 1000000
+            },
+            "SD": {
+              "max": 600000
+            },
+            "WA": {
+              "max": 1500000
+            }
+          }
+        },
+        "distanceToTown": {
+          "min": 30,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "waterPreferences": [
+          {
+            "type": "year-round-water",
+            "weight": 50
+          },
+          {
+            "type": "pond-lake",
+            "weight": 30
+          },
+          {
+            "type": "well",
+            "weight": 30
+          },
+          {
+            "type": "any-water",
+            "weight": 20
+          }
+        ],
+        "structurePreference": "raw-land",
+        "terrain": [
+          "forested",
+          "mountain",
+          "green"
+        ],
+        "utilityWeights": {
+          "power": 10,
+          "water": 10,
+          "internet": 5
+        }
+      },
+      "plugins": {
+        "landwatch": {
+          "enabled": true,
+          "priority": 1
+        },
+        "landsofamerica": {
+          "enabled": true,
+          "priority": 2
+        },
+        "landsearch": {
+          "enabled": true,
+          "priority": 3
+        },
+        "zillow": {
+          "enabled": false,
+          "priority": 4
+        }
+      }
+    },
+    "montana-only": {
+      "name": "Montana Focus",
+      "description": "Montana properties only with relaxed distance requirements",
+      "criteria": {
+        "minAcres": 20,
+        "states": [
+          "MT"
+        ],
+        "priceRange": {
+          "default": {
+            "max": 1200000
+          }
+        },
+        "distanceToTown": {
+          "min": 20,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "waterPreferences": [
+          {
+            "type": "year-round-water",
+            "weight": 50
+          }
+        ],
+        "terrain": [
+          "mountain"
+        ]
+      },
+      "plugins": {
+        "landwatch": {
+          "enabled": true,
+          "priority": 1
+        }
+      }
+    },
+    "budget-friendly": {
+      "name": "Budget Properties",
+      "description": "Lower price point across all states",
+      "criteria": {
+        "minAcres": 20,
+        "states": [
+          "ID",
+          "MT",
+          "WY",
+          "SD"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 100000,
+            "max": 500000
+          }
+        },
+        "waterPreferences": [
+          {
+            "type": "any-water",
+            "weight": 30
+          }
+        ]
+      },
+      "plugins": {
+        "landwatch": {
+          "enabled": true,
+          "priority": 1
+        },
+        "landsofamerica": {
+          "enabled": true,
+          "priority": 2
+        }
+      }
+    },
+    "landsearch-test": {
+      "name": "LandSearch.com Test",
+      "description": "Test LandSearch.com plugin with Montana search",
+      "criteria": {
+        "minAcres": 10,
+        "maxAcres": 100,
+        "states": [
+          "MT"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 50000,
+            "max": 500000
+          }
+        }
+      },
+      "plugins": {
+        "landsearch": {
+          "enabled": true,
+          "priority": 1
+        }
+      }
+    },
+    "landwatch-test": {
+      "name": "LandWatch Test",
+      "description": "Test LandWatch plugin with Montana search",
+      "criteria": {
+        "minAcres": 10,
+        "maxAcres": 100,
+        "states": [
+          "MT"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 50000,
+            "max": 500000
+          }
+        }
+      },
+      "plugins": {
+        "landwatch": {
+          "enabled": true,
+          "priority": 1
+        }
+      }
+    },
+    "landsofamerica-test": {
+      "name": "Lands of America Test",
+      "description": "Test Lands of America plugin with Montana search",
+      "criteria": {
+        "minAcres": 10,
+        "maxAcres": 100,
+        "states": [
+          "MT"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 50000,
+            "max": 500000
+          }
+        }
+      },
+      "plugins": {
+        "landsofamerica": {
+          "enabled": true,
+          "priority": 1
+        }
+      }
+    },
+    "zillow-test": {
+      "name": "Zillow Test",
+      "description": "Test Zillow plugin with Montana search",
+      "criteria": {
+        "minAcres": 10,
+        "maxAcres": 100,
+        "states": [
+          "MT"
+        ],
+        "priceRange": {
+          "default": {
+            "min": 50000,
+            "max": 500000
+          }
+        }
+      },
+      "plugins": {
+        "zillow": {
+          "enabled": true,
+          "priority": 1
+        }
+      }
+    }
+  },
+  "activeProfile": "default",
+  "scraping": {
+    "defaultRateLimitMs": 5000,
+    "headless": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+}

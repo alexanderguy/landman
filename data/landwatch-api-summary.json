@@ -1,0 +1,17 @@
+{
+  "totalApiCalls": 12,
+  "searchApiCalls": 0,
+  "timing": {
+    "firstApiCall": "2026-02-15T00:35:10.872Z",
+    "lastApiCall": "2026-02-15T00:35:14.581Z"
+  },
+  "searchEndpoints": [],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "findings": {
+    "usesPostApi": false,
+    "hasJsonResponse": false
+  }
+}
